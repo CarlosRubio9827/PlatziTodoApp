@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/PlatziTodoApp/static/css/main.f161de55.css",
+    "main.js": "/PlatziTodoApp/static/js/main.38b8d974.js",
+    "index.html": "/PlatziTodoApp/index.html",
+    "main.f161de55.css.map": "/PlatziTodoApp/static/css/main.f161de55.css.map",
+    "main.38b8d974.js.map": "/PlatziTodoApp/static/js/main.38b8d974.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f161de55.css",
+    "static/js/main.38b8d974.js"
+  ]
+}
