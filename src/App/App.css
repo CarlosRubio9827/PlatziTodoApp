@@ -1,0 +1,9 @@
+.container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 5% 10%;
+    max-width: 500px;
+    width: 90%;
+    margin: 0 auto;
+}

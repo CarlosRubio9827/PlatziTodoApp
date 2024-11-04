@@ -1,0 +1,78 @@
+.modal {
+    position: absolute;
+  /* position: relative; */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 40%;
+  height: 40%;
+  padding: 30px;
+  background-color: #fff;
+
+}
+
+.modal-title{
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+.modal-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 20px;
+    height: 100%;
+    width: 100%;
+    padding-top: 40px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 5px;
+  width: 100%;
+}
+.form-textarea{
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #0000005d;
+    resize: none;
+}
+
+.form-group-buttons{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+.form-button{
+    padding: 10px;
+    width: 40%;
+    border: none;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.form-button-primary{
+    background-color: #333;
+    color: #fff;
+    /* border: 1px solid #fff; */
+}
+.form-button-secondary{
+    border: 1px solid #333;
+    background-color: #fff;
+    color: #333;
+}
+.modal-close {
+  position: absolute;
+  top: -15px;
+  right: -15px;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  color: red;
+}

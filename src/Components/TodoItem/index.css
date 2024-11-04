@@ -1,0 +1,55 @@
+.todoItem {
+  list-style: none;
+  display: flex;
+  width: 100%;
+  /* gap: 5px; */
+  margin: 15px 0;
+  /* justify-content: space-between; */
+  align-items: center;
+  padding: 10px 0;
+  position: relative;
+  border-radius: 5px;
+  box-shadow: 0 0 5px 0px rgba(0, 0,0, 0.5);
+}
+
+.todoItem :nth-child(1) {
+  margin: 3px 8px 0 8px;
+  cursor: pointer;
+
+}
+
+.todoItem :nth-child(3) {
+  position: absolute;
+  right: -15px;
+  top: -15px;
+  cursor: pointer;
+
+}
+
+.todoItem p {
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+}
+
+.todoItem-done {
+  width: 20px;
+  height: 20px;
+  /* color: red; */
+}
+.todoItem-done-completed{
+    color: green;
+}
+
+.todoItem-delete {
+  width: 20px;
+  height: 20px;
+  color: red;
+}
+
+.todoItem-delete-completed{
+    color: black;
+}
+
+.todoItem-text-completed{
+    text-decoration: line-through;
+}
